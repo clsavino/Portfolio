@@ -1,75 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">  
 <head>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<!-- see http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag -->
-	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+  	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Contact Christi Savino</title>
 
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/spacing.css">
 </head>
 
 <body>
-	<div class="content-wrapper">
-		<header class="header" id="top">
-			<div class="header-wrapper">
-    		<h1 id="name">Christi Savino</h1> 
-
-    		<nav class="navbar">
-				<a href="index.html" target="_blank">About</a> |
-			
-				<a href="portfolio.html" target="_blank">Portfolio</a> | 
-			
+		<header id="masthead">
+			<div class="container" id="top">
+    		<a href="index.html" id="logo">Christi Savino</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
 				<a href="#top">Contact</a>
 			</nav>
-		</div><!-- header-wrapper -->
+		</div>
 		</header>
 
-	<div class="main-content-outer">
-		<div class="main-content-inner">
-			<main class="contact">
+		<main class="container">
+			<section class="main-section">
+				<h1>Contact</h1>
 
-  			<h1>Contact</h1>
-  			<hr>
-
-  			<!-- Get page on server to send data for action="" -->
-
-  			<form action="" method="get">
+  			<form id="contact-form">
 			  Name <br><input type="text" name="username" placeholder="Jane Smith" required><br>
 			  Email <br><input type="text" name="email" placeholder="example@gmail.com" required><br>
 			  Message <br><textarea name='message' wrap='soft' required></textarea><br>
 			  <!-- Get page on server to send data for action="" -->
-			  <button type="submit" formaction=''>Submit</button>
+			  <button type="submit">Submit</button>
 			</form>
 
-			</main>
+		</section>
 
-			<aside class="connect">
+		<section class="sidebar">
+			<div id="connect">
+  				<h2>Connect with Me</h2>
+  			
+  				<a href="https://www.github.com/clsavino" target="_blank"><img src="assets/images/squaregithub.png" width="48" alt="Github link" title="Link to Github.com"></a>
 
-  			<h3>Connect with Me</h3>
-  			<hr>
+	  			<a href="https://www.linkedin.com/in/christi-savino-b0837734" target="_blank"><img src="assets/images/linkedin-square.png" width="48" alt="LinkedIn link" title="Link to LinkedIn.com"></a>
 
-  			<a href="https://www.github.com/clsavino" target="_blank"><img src="assets/images/squaregithub.png" width="48" alt="Github link" title="Link to Github.com"></a>
+	  			<a href="http://www.stackoverflow.com/users/6587268/christi" target="_blank"><img src="assets/images/stackoverflow.jpg" width="48" alt="Stackoverflow link" title="Link to Stackoverflow.com"></a>
+  			</div>
+		</section>
+	</main>
 
-  			<a href="https://www.linkedin.com/in/christi-savino-b0837734" target="_blank"><img src="assets/images/linkedin-square.png" width="48" alt="LinkedIn link" title="Link to LinkedIn.com"></a>
+		<footer > 
+			<div class="container">
+			 &copy;Copyright2016 Christi Savino
+			</div>
+		</footer>
 
-  			<a href="http://www.stackoverflow.com/users/6587268/christi" target="_blank"><img src="assets/images/stackoverflow.jpg" width="48" alt="Stackoverflow link" title="Link to Stackoverflow.com"></a>
-
-			</aside>
-
-			</div> <!-- main-content-inner -->
-
-		</div> <!-- main-content-outer -->
-
-		<div class="push"></div>
-
-	<footer>
-	    <h6 id="footer-info">&copy;Copyright2016 Christi Savino</h6>
-	</footer>
-
-	</div> <!-- content-wrapper -->
-</body>
+	</body>
 </html>
