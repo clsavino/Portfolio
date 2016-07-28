@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+}
+html body {
+	height: 100%;
+	overflow: auto;
+}
+
+.page-wrap {
+	min-height: 100%;
+	/*equal to footer height */
+	margin-bottom: -60px;
+}
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+
+.site-footer, .page-wrap:after {
+	/*must be same height as footer */
+	height: 60px;
+}
+
+.site-footer {
+	text-align: center;
+	overflow: hidden;
+}
+nav {
+	height: 60px;
+}
+a.navbar-brand {
+	margin-top: 10px;
+	font-size: 24px;
+}
+.nav, .navbar-nav, .navbar-right {
+	margin-top: 10px;
+}
+div.row {
+	margin: 20px 0;
+}
+aside {
+	text-align: center;
+}
+aside img {
+	padding: 5px;
+}
+
+main img {
+	margin: 5px 20px 0 0;
+	float: left;
+	height: 148px;
+}
+main h1 {
+	font-size: 24px;
+}
+main a {
+  margin-bottom: 30px;
+}
+.spacer {
+	border:; 5px solid white;
+}
+
+.mainForm{
+	border:; 5px solid white;
+}
+.form-horizontal {
+	border:; 5px solid white;
+}
+.connectMe {
+	border:; 5px solid white;
+}
+
+aside h3 {
+	font-size: 22px;
+}
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+.well {
+	margin-top: 30px;
+	border: 2px solid white;
+}
+
+.placeholder{
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin: 20px 20px 0 20px;
+  overflow: auto;
+  width: 274px;
+}
+
+.placeholder p {
+  position: absolute;
+  border-bottom: 0;
+  background-color: teal;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;  
+  padding: 10px 15px;
+  width: 100%;
+  bottom: 20px;
+  line-height: 30px;
+  margin-bottom: 0;
+  left: 0em;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.placeholder img {
+  width: 100%;
+  border: 0 none;
+  opacity: .8;
+  margin: 0;
+}
+.work {
+	width: 274px;
+	overflow: auto;
+	position: relative;
+	float: left;
+	margin: 20px 0 25px;
+}
+.work:nth-child(even) {
+	margin-right: 20px;
+}
+.work img {
+	width: 100%;
+	border: 0 none;
+	opacity: .8;
+}
+.work h3 {
+	position: absolute;
+	border-bottom: 0;
+	background: #4aaaa5;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	bottom: 20px;
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+.auth-image {
+	width: 200px;
+	height: auto;
+	margin-top: 10px;
+	float: left;
+	margin-right: 25px;
+}
+
+/*
+footer p {
+	margin: 0;
+}*/
+footer {	
+	padding 20px;
+	text-align: center;
+	background: #4e5d6c;
+	vertical-align: baseline;
+	clear: both;
+	width: 100%;
+}
+
+.footer-info {
+	font-size: 10px;
+	margin: 0;
+	padding: 20px;
+	line-height: 20px;	
+}
